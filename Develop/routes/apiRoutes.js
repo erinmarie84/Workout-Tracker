@@ -1,4 +1,4 @@
-const Workout = require('../models/Workout');
+const Workout = require('../models/workout');
 
 module.exports = function(app){
     app.get('/api/workouts', function(req, res) {
